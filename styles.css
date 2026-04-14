@@ -1,3 +1,10 @@
 body * {
     border: 1px solid #000;
 }
+
+body {
+    height: 100vh;
+
+    display: grid;
+    grid-row: 1/3;
+}
