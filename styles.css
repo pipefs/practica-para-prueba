@@ -1,14 +1,24 @@
-body * {
-    border: 1px solid #000;
-}
-
 body {
     height: 100vh;
     text-align: center;
+    background-color: lightblue;
 
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 1fr 0.1fr;
+}
+
+header, footer {
+    background-color: #424242;
+    color: white;
+}
+
+main {
+    background-color: salmon;
+}
+
+header, main, footer {
+    font-family: 'Arial';
 }
 
 #images {
